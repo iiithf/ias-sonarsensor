@@ -1,6 +1,6 @@
 {
   "name": "ias-sonarsensor",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "This is a Naval mine sensor taking in Sonar Data.",
   "main": "index.js",
   "scripts": {
