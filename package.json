@@ -1,0 +1,28 @@
+{
+  "name": "ias-sonarsensor",
+  "version": "0.0.1",
+  "description": "This is a Naval mine sensor taking in Sonar Data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "exit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iiithf/ias-sonarsensor.git"
+  },
+  "keywords": [
+    "ias",
+    "sonar",
+    "sensor"
+  ],
+  "author": "wolfram77@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iiithf/ias-sonarsensor/issues"
+  },
+  "homepage": "https://github.com/iiithf/ias-sonarsensor#readme",
+  "dependencies": {
+    "csv-parse": "^4.4.0",
+    "express": "^4.16.4"
+  }
+}
