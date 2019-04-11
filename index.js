@@ -6,9 +6,9 @@ const fs = require('fs');
 
 
 const E = process.env;
-const DATARATE = 10000;
-const DATASET = 'sonar.all-data';
 const PORT = parseInt(E['PORT']||'8000');
+const DATARATE = parseInt(E['DATARATE']||'10000', 10);
+const DATASET = 'sonar.all-data';
 const app = express();
 const server = http.createServer(app);
 var inputs = [], input_i = 0;
