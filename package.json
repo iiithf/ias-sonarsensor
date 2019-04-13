@@ -4,6 +4,7 @@
   "description": "This is a Naval mine sensor taking in Sonar Data.",
   "main": "index.js",
   "scripts": {
+    "start": "node ./",
     "test": "exit"
   },
   "repository": {
